@@ -1,0 +1,15 @@
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\HelloWorld\bin\Debug\net7.0\HelloWorld.exe
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\HelloWorld\bin\Debug\net7.0\HelloWorld.deps.json
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\HelloWorld\bin\Debug\net7.0\HelloWorld.runtimeconfig.json
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\HelloWorld\bin\Debug\net7.0\HelloWorld.dll
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\HelloWorld\bin\Debug\net7.0\HelloWorld.pdb
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\HelloWorld\obj\Debug\net7.0\HelloWorld.csproj.AssemblyReference.cache
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\HelloWorld\obj\Debug\net7.0\HelloWorld.GeneratedMSBuildEditorConfig.editorconfig
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\HelloWorld\obj\Debug\net7.0\HelloWorld.AssemblyInfoInputs.cache
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\HelloWorld\obj\Debug\net7.0\HelloWorld.AssemblyInfo.cs
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\HelloWorld\obj\Debug\net7.0\HelloWorld.csproj.CoreCompileInputs.cache
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\HelloWorld\obj\Debug\net7.0\HelloWorld.dll
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\HelloWorld\obj\Debug\net7.0\refint\HelloWorld.dll
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\HelloWorld\obj\Debug\net7.0\HelloWorld.pdb
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\HelloWorld\obj\Debug\net7.0\HelloWorld.genruntimeconfig.cache
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\HelloWorld\obj\Debug\net7.0\ref\HelloWorld.dll

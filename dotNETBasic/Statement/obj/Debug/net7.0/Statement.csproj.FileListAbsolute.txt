@@ -1,0 +1,15 @@
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\Statement\bin\Debug\net7.0\Statement.exe
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\Statement\bin\Debug\net7.0\Statement.deps.json
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\Statement\bin\Debug\net7.0\Statement.runtimeconfig.json
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\Statement\bin\Debug\net7.0\Statement.dll
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\Statement\bin\Debug\net7.0\Statement.pdb
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\Statement\obj\Debug\net7.0\Statement.csproj.AssemblyReference.cache
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\Statement\obj\Debug\net7.0\Statement.GeneratedMSBuildEditorConfig.editorconfig
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\Statement\obj\Debug\net7.0\Statement.AssemblyInfoInputs.cache
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\Statement\obj\Debug\net7.0\Statement.AssemblyInfo.cs
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\Statement\obj\Debug\net7.0\Statement.csproj.CoreCompileInputs.cache
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\Statement\obj\Debug\net7.0\Statement.dll
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\Statement\obj\Debug\net7.0\refint\Statement.dll
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\Statement\obj\Debug\net7.0\Statement.pdb
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\Statement\obj\Debug\net7.0\Statement.genruntimeconfig.cache
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\Statement\obj\Debug\net7.0\ref\Statement.dll
