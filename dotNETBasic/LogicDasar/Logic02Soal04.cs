@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace LogicDasar
 {
-    public class Logic02Soal02
+    public class Logic02Soal04
     {
-        public Logic02Soal02() 
+        public Logic02Soal04() 
         { 
         }
 
@@ -35,11 +35,17 @@ namespace LogicDasar
                     {
                         Console.Write(number + "\t");
                     }
+                    else if (j<2)
+                    {
+                        number = 1;
+                    }
                     else
                     {
+                        number += 2;
+                        //number = number[j - 2] + number[j + 1];
                         Console.Write("\t");
                     }
-                    number +=2;
+                   
                 }
                 Console.WriteLine("\n");
             }
