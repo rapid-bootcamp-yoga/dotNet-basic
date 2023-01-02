@@ -19,33 +19,34 @@ namespace LogicDasar
                 int number = 1;
                 for (int j = 0; j < n; j++)
                 {
-                    if (i < n  && j == 0 )
+                    if ( j == 0 )
                     {
                         Console.Write(number + "\t");
                     }
-                    else if (i < n  && j == n-1)
+                    else if ( j == n-1)
                     {
                         Console.Write(number + "\t");
                     }
-                    else if (i == 0 && j == j)
+                    else if (i == 0)
                     {
                         Console.Write(number + "\t");
                     }
-                    else if (i == n-1 && j == j)
+                    else if (i == n-1 )
                     {
                         Console.Write(number + "\t");
                     }
-                    else if (j<2)
+            
+                    else if (j == n/2 || i == n/2)
                     {
-                        number = 1;
+                        Console.Write(number + "\t");
                     }
                     else
                     {
-                        number += 2;
-                        //number = number[j - 2] + number[j + 1];
+                     
                         Console.Write("\t");
                     }
-                   
+                    number += number;
+
                 }
                 Console.WriteLine("\n");
             }
