@@ -1,0 +1,15 @@
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\LogicDasar\bin\Debug\net7.0\LogicDasar.exe
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\LogicDasar\bin\Debug\net7.0\LogicDasar.deps.json
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\LogicDasar\bin\Debug\net7.0\LogicDasar.runtimeconfig.json
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\LogicDasar\bin\Debug\net7.0\LogicDasar.dll
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\LogicDasar\bin\Debug\net7.0\LogicDasar.pdb
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\LogicDasar\obj\Debug\net7.0\LogicDasar.csproj.AssemblyReference.cache
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\LogicDasar\obj\Debug\net7.0\LogicDasar.GeneratedMSBuildEditorConfig.editorconfig
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\LogicDasar\obj\Debug\net7.0\LogicDasar.AssemblyInfoInputs.cache
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\LogicDasar\obj\Debug\net7.0\LogicDasar.AssemblyInfo.cs
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\LogicDasar\obj\Debug\net7.0\LogicDasar.csproj.CoreCompileInputs.cache
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\LogicDasar\obj\Debug\net7.0\LogicDasar.dll
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\LogicDasar\obj\Debug\net7.0\refint\LogicDasar.dll
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\LogicDasar\obj\Debug\net7.0\LogicDasar.pdb
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\LogicDasar\obj\Debug\net7.0\LogicDasar.genruntimeconfig.cache
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\LogicDasar\obj\Debug\net7.0\ref\LogicDasar.dll
