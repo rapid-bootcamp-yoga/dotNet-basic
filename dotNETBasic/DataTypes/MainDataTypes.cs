@@ -1,4 +1,5 @@
 ﻿using DataTypes.CustomeType;
+using DataTypes.OOP;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -27,9 +28,30 @@ namespace DataTypes
     {
         public static void Main()
         {
-            SampleClass();
+            BankAccountSample();
 
         }
+
+        #region sample Transaction BankAccount
+        #endregion
+
+        #region Sample Bank Account
+        public static void BankAccountSample()
+        {
+
+            var account = new BankAccount("Yoga Julian", 100000);
+            Console.WriteLine($"Account {account.Number} was created for {account.Owner} with {account.Balance} initial balance.");
+
+            var account2 = new BankAccount("Yoga", 1555500000);
+            Console.WriteLine($"Account {account2.Number} was created for {account2.Owner} with {account2.Balance} initial balance.");
+
+            var account3 = new BankAccount("Yoga J", 100500000);
+            Console.WriteLine($"Account {account3.Number} was created for {account3.Owner} with {account3.Balance} initial balance.");
+
+            var account21 = new BankAccount("YJP", 2555500000);
+            Console.WriteLine($"Account {account21.Number} was created for {account21.Owner} with {account21.Balance} initial balance.");
+        } 
+        #endregion
 
         #region Sample Class
         public static void SampleClass()
