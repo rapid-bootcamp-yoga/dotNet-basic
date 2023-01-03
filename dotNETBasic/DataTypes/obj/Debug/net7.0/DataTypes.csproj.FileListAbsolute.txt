@@ -1,0 +1,15 @@
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\DataTypes\bin\Debug\net7.0\DataTypes.exe
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\DataTypes\bin\Debug\net7.0\DataTypes.deps.json
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\DataTypes\bin\Debug\net7.0\DataTypes.runtimeconfig.json
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\DataTypes\bin\Debug\net7.0\DataTypes.dll
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\DataTypes\bin\Debug\net7.0\DataTypes.pdb
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\DataTypes\obj\Debug\net7.0\DataTypes.csproj.AssemblyReference.cache
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\DataTypes\obj\Debug\net7.0\DataTypes.GeneratedMSBuildEditorConfig.editorconfig
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\DataTypes\obj\Debug\net7.0\DataTypes.AssemblyInfoInputs.cache
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\DataTypes\obj\Debug\net7.0\DataTypes.AssemblyInfo.cs
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\DataTypes\obj\Debug\net7.0\DataTypes.csproj.CoreCompileInputs.cache
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\DataTypes\obj\Debug\net7.0\DataTypes.dll
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\DataTypes\obj\Debug\net7.0\refint\DataTypes.dll
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\DataTypes\obj\Debug\net7.0\DataTypes.pdb
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\DataTypes\obj\Debug\net7.0\DataTypes.genruntimeconfig.cache
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\DataTypes\obj\Debug\net7.0\ref\DataTypes.dll
