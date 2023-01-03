@@ -44,6 +44,7 @@ namespace DataTypes
             try
             {
                 account.MakeWithdrawal(750, DateTime.Now, "Attempt to overdraw");
+                Console.WriteLine(account.Balance);
             }
             catch (InvalidOperationException e)
             {
@@ -54,6 +55,7 @@ namespace DataTypes
             try
             {
                 account.MakeWithdrawal(750, DateTime.Now, "Attempt to overdraw");
+                Console.WriteLine(account.Balance);
             }
             catch (InvalidOperationException e)
             {

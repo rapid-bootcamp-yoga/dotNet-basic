@@ -34,13 +34,16 @@ namespace DataTypes.OOP
 
         public BankAccount( string name, decimal initialBalance)
         {
-            //this.Owner = name;
-           // this.Balance = initialBalance;
+            this.Owner = name;
+
+            MakeDeposit(initialBalance, DateTime.Now, "Saldo Awal");
+
+           
             this.Number = accountNumberSeed.ToString();
             accountNumberSeed++;
 
-            Owner = name;
-            MakeDeposit(initialBalance, DateTime.Now, "Saldo Awal");
+           
+           
         }
 
         private List<Transaction> allTransactions = new List<Transaction>();
