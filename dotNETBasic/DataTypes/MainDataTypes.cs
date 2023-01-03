@@ -32,6 +32,8 @@ namespace DataTypes
         {
             TransactionBankAccount();
 
+            //Cetak History
+            Console.WriteLine(account.GetAccountHistory());
         }
 
         #region sample Transaction BankAccount
@@ -75,8 +77,7 @@ namespace DataTypes
                 Console.WriteLine(e.ToString());
             }
 
-            //Cetak History
-            Console.WriteLine(account.GetAccountHistory());
+            
 
 
             // Test that the initial balances must be positive.
