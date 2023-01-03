@@ -71,5 +71,22 @@ namespace DataTypes.OOP
             var withdrawal = new Transaction(-amount, date, note);
             allTransactions.Add(withdrawal);
         }
+
+        public string GetAccountHistory()
+        {
+            var report = new StringBuilder();
+
+            decimal balance = 0;
+            //Header
+            report.AppendLine("Date\t\tAmount\t\tBalance\t\tNote");
+            foreach (var item in allTransactions)
+            {
+                balance += item.Amount;
+                report.AppendLine($"{item.Date.ToShortDateString()}\t{item.Amount}\t{balance}\t{item.Notes}");
+            }
+
+            return report.ToString();
+        }
+
     }
 }

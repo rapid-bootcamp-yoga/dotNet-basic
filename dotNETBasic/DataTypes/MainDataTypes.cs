@@ -6,6 +6,7 @@ using System.Linq;
 using System.Security.Principal;
 using System.Text;
 using System.Threading.Tasks;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace DataTypes
 {
@@ -37,14 +38,14 @@ namespace DataTypes
         public static void TransactionBankAccount()
         {
            
-            var account = new BankAccount("Yoga", 1555500000);
+            var account = new BankAccount("Yoga", 11500500000);
             Console.WriteLine($"Account {account.Number} was created for {account.Owner} with {account.Balance} initial balance.");
 
             // Test for a negative balance.
             try
             {
-                account.MakeWithdrawal(750, DateTime.Now, "Attempt to overdraw");
-                Console.WriteLine(account.Balance);
+                account.MakeWithdrawal(14750000, DateTime.Now, "Beli Sepeda Motor");
+                //Console.WriteLine(account.Balance);
             }
             catch (InvalidOperationException e)
             {
@@ -54,20 +55,35 @@ namespace DataTypes
 
             try
             {
-                account.MakeWithdrawal(750, DateTime.Now, "Attempt to overdraw");
-                Console.WriteLine(account.Balance);
+                account.MakeWithdrawal(650000000, DateTime.Now, "Rumah");
+                //Console.WriteLine(account.Balance);
             }
             catch (InvalidOperationException e)
             {
                 Console.WriteLine("Exception caught trying to overdraw");
                 Console.WriteLine(e.ToString());
             }
+
+            //Nambah Deposit
+            try
+            {
+                account.MakeDeposit(205000000, DateTime.Now, "Pemasukkan Januari");
+            }
+            catch (ArgumentOutOfRangeException e)
+            {
+                Console.WriteLine("Amount of deposit must be positive");
+                Console.WriteLine(e.ToString());
+            }
+
+            //Cetak History
+            Console.WriteLine(account.GetAccountHistory());
+
 
             // Test that the initial balances must be positive.
             BankAccount invalidAccount;
             try
             {
-                invalidAccount = new BankAccount("invalid", -55);
+                invalidAccount = new BankAccount("invalid", -55000);
             }
             catch (ArgumentOutOfRangeException e)
             {
