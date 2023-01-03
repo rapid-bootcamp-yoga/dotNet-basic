@@ -19,6 +19,7 @@ using System.Threading.Tasks;
             Logic02Soal02.CetakData(n);
             Logic02Soal03.CetakData(n);
             Logic02Soal04.CetakData(n);
+            Logic02Soal09.CetakData(n);
             
         }
     }
