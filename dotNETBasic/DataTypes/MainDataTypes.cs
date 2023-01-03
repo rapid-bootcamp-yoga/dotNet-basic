@@ -3,6 +3,7 @@ using DataTypes.OOP;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Principal;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -28,11 +29,51 @@ namespace DataTypes
     {
         public static void Main()
         {
-            BankAccountSample();
+            TransactionBankAccount();
 
         }
 
         #region sample Transaction BankAccount
+        public static void TransactionBankAccount()
+        {
+           
+            var account = new BankAccount("Yoga", 1555500000);
+            Console.WriteLine($"Account {account.Number} was created for {account.Owner} with {account.Balance} initial balance.");
+
+            // Test for a negative balance.
+            try
+            {
+                account.MakeWithdrawal(750, DateTime.Now, "Attempt to overdraw");
+            }
+            catch (InvalidOperationException e)
+            {
+                Console.WriteLine("Exception caught trying to overdraw");
+                Console.WriteLine(e.ToString());
+            }
+
+            try
+            {
+                account.MakeWithdrawal(750, DateTime.Now, "Attempt to overdraw");
+            }
+            catch (InvalidOperationException e)
+            {
+                Console.WriteLine("Exception caught trying to overdraw");
+                Console.WriteLine(e.ToString());
+            }
+
+            // Test that the initial balances must be positive.
+            BankAccount invalidAccount;
+            try
+            {
+                invalidAccount = new BankAccount("invalid", -55);
+            }
+            catch (ArgumentOutOfRangeException e)
+            {
+                Console.WriteLine("Exception caught creating account with negative balance");
+                Console.WriteLine(e.ToString());
+                return;
+            }
+        }
         #endregion
 
         #region Sample Bank Account
