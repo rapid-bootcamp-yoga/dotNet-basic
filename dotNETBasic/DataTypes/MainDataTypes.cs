@@ -1,11 +1,15 @@
 ﻿using DataTypes.CustomeType;
+using DataTypes.InheritanceType;
+using DataTypes.ObjectType;
 using DataTypes.OOP;
+using DataTypes.PolymorphismType;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Principal;
 using System.Text;
 using System.Threading.Tasks;
+using static DataTypes.PolymorphismType.Shape;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace DataTypes
@@ -30,13 +34,127 @@ namespace DataTypes
     {
         public static void Main()
         {
-
-            SampleGiftCardAccount();
-            SampleInterestEarningAccount();
-            SampleLineOfCreditAccount();
-
+            //SampleDataTypes();
+            // SampleGiftCardAccount();
+            //SampleInterestEarningAccount();
+            // SampleLineOfCreditAccount();
+            //SampleObjectPerson();
+            //SampleInheritance();
+            //SamplePolymorphism();
+            InterfaceImplement();
 
         }
+
+        #region sample Interface
+        public static void InterfaceImplement()
+        {
+            SampleClassImplement sample = new SampleClassImplement();
+            IControl control = sample;
+            ISurface surface = sample;
+
+            // The following lines all call the same method.
+            sample.Paint();
+            sample.Create();
+            sample.Draw();
+
+            control.Paint();
+            control.Create();
+
+            surface.Paint();
+            surface.Draw();
+
+            // Output:
+            // Paint method in SampleClass
+            // Paint method in SampleClass
+            // Paint method in SampleClass
+        }
+        #endregion
+
+        #region Polymorphism
+        public static void SamplePolymorphism()
+        {
+            // Polymorphism at work #1: a Rectangle, Triangle and Circle
+            // can all be used wherever a Shape is expected. No cast is
+            // required because an implicit conversion exists from a derived
+            // class to its base class.
+            var shapes = new List<Shape>
+            {
+                new Rectangle(),
+                new Triangle(),
+                new Circle()
+            };
+
+            // Polymorphism at work #2: the virtual method Draw is
+            // invoked on each of the derived classes, not the base class.
+            foreach (var shape in shapes)
+            {
+                shape.Draw();
+            }
+            /* Output:
+                Drawing a rectangle
+                Performing base class drawing tasks
+                Drawing a triangle
+                Performing base class drawing tasks
+                Drawing a circle
+                Performing base class drawing tasks
+            */
+        }
+        #endregion
+
+        #region sample inheritance
+        public static void SampleInheritance()
+        {
+            // Create an instance of WorkItem by using the constructor in the
+            // base class that takes three arguments.
+            WorkItem item = new WorkItem("Fix Bugs",
+                                        "Fix all bugs in my code branch",
+                                        new TimeSpan(3, 4, 0, 0));
+
+            // Create an instance of ChangeRequest by using the constructor in
+            // the derived class that takes four arguments.
+            ChangeRequest change = new ChangeRequest("Change Base Class Design",
+                                                    "Add members to the class",
+                                                    new TimeSpan(4, 0, 0),
+                                                    1);
+
+            // Use the ToString method defined in WorkItem.
+            Console.WriteLine(item.ToString());
+
+            // Use the inherited Update method to change the title of the
+            // ChangeRequest object.
+            change.Update("Change the Design of the Base Class",
+                new TimeSpan(4, 0, 0));
+
+            // ChangeRequest inherits WorkItem's override of ToString.
+            Console.WriteLine(change.ToString());
+            /* Output:
+                1 - Fix Bugs
+                2 - Change the Design of the Base Class
+            */
+        }
+        #endregion
+
+        #region Sample Object
+        public static void SampleObjectPerson()
+        {
+            Person person1 = new Person("Yoga", 26);
+            Console.WriteLine("person1 Name = {0} Age = {1}", person1.Name, person1.Age);
+
+            // Declare new person, assign person1 to it.
+            Person person2 = person1;
+
+            // Change the name of person2, and person1 also changes.
+            person2.Name = "Sippy";
+            person2.Age = 16;
+
+            Console.WriteLine("person2 Name = {0} Age = {1}", person2.Name, person2.Age);
+            Console.WriteLine("person1 Name = {0} Age = {1}", person1.Name, person1.Age);
+
+            Person person3 = new Person("Tiyo", 29);
+            Console.WriteLine("person3 Name = {0} Age = {1}", person3.Name, person3.Age);
+
+        }
+        #endregion
 
         #region sample GiftCart acount
         public static void SampleGiftCardAccount()
@@ -232,6 +350,15 @@ namespace DataTypes
             foreach (var item in query2)
             {
                 Console.WriteLine("item value query2: " + item);
+            }
+
+            var query3 = from item in source
+                         where item % 2 == 0
+                         select item;
+            Console.WriteLine("Hasil query bil genap");
+            foreach (var item in query2)
+            {
+                Console.WriteLine("item value query: " + item);
             }
         }
         #endregion
