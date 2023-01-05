@@ -6,6 +6,8 @@ public class Program
     {
         AggregateOperator aggregateOperator= new AggregateOperator();
         //aggregateOperator.CountSyntax();
-        aggregateOperator.CountConditional();
+        //aggregateOperator.CountConditional();
+        aggregateOperator.CountNested();
+
     }
 }
