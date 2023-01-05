@@ -1,0 +1,15 @@
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\Sample101Linq\bin\Debug\net7.0\Sample101Linq.exe
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\Sample101Linq\bin\Debug\net7.0\Sample101Linq.deps.json
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\Sample101Linq\bin\Debug\net7.0\Sample101Linq.runtimeconfig.json
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\Sample101Linq\bin\Debug\net7.0\Sample101Linq.dll
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\Sample101Linq\bin\Debug\net7.0\Sample101Linq.pdb
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\Sample101Linq\obj\Debug\net7.0\Sample101Linq.csproj.AssemblyReference.cache
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\Sample101Linq\obj\Debug\net7.0\Sample101Linq.GeneratedMSBuildEditorConfig.editorconfig
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\Sample101Linq\obj\Debug\net7.0\Sample101Linq.AssemblyInfoInputs.cache
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\Sample101Linq\obj\Debug\net7.0\Sample101Linq.AssemblyInfo.cs
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\Sample101Linq\obj\Debug\net7.0\Sample101Linq.csproj.CoreCompileInputs.cache
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\Sample101Linq\obj\Debug\net7.0\Sample101Linq.dll
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\Sample101Linq\obj\Debug\net7.0\refint\Sample101Linq.dll
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\Sample101Linq\obj\Debug\net7.0\Sample101Linq.pdb
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\Sample101Linq\obj\Debug\net7.0\Sample101Linq.genruntimeconfig.cache
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\Sample101Linq\obj\Debug\net7.0\ref\Sample101Linq.dll

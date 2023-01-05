@@ -9,7 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Statement", "Statement\Stat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogicDasar", "LogicDasar\LogicDasar.csproj", "{81957707-838C-49AC-AC67-DFBC6CD0C383}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTypes", "DataTypes\DataTypes.csproj", "{92FFEE9B-D638-4488-A9CA-BB737D08E6FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataTypes", "DataTypes\DataTypes.csproj", "{92FFEE9B-D638-4488-A9CA-BB737D08E6FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqTutorial", "LinqTutorial\LinqTutorial.csproj", "{AFBDE04D-47DB-4A5B-A341-F1355F24BCDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample101Linq", "Sample101Linq\Sample101Linq.csproj", "{D7319A24-4749-491F-B12F-802C24CCF19F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{92FFEE9B-D638-4488-A9CA-BB737D08E6FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92FFEE9B-D638-4488-A9CA-BB737D08E6FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{92FFEE9B-D638-4488-A9CA-BB737D08E6FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFBDE04D-47DB-4A5B-A341-F1355F24BCDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFBDE04D-47DB-4A5B-A341-F1355F24BCDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFBDE04D-47DB-4A5B-A341-F1355F24BCDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFBDE04D-47DB-4A5B-A341-F1355F24BCDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7319A24-4749-491F-B12F-802C24CCF19F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7319A24-4749-491F-B12F-802C24CCF19F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7319A24-4749-491F-B12F-802C24CCF19F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7319A24-4749-491F-B12F-802C24CCF19F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

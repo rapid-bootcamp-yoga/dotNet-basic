@@ -1,0 +1,15 @@
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\LinqTutorial\bin\Debug\net7.0\LinqTutorial.exe
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\LinqTutorial\bin\Debug\net7.0\LinqTutorial.deps.json
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\LinqTutorial\bin\Debug\net7.0\LinqTutorial.runtimeconfig.json
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\LinqTutorial\bin\Debug\net7.0\LinqTutorial.dll
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\LinqTutorial\bin\Debug\net7.0\LinqTutorial.pdb
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\LinqTutorial\obj\Debug\net7.0\LinqTutorial.csproj.AssemblyReference.cache
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\LinqTutorial\obj\Debug\net7.0\LinqTutorial.GeneratedMSBuildEditorConfig.editorconfig
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\LinqTutorial\obj\Debug\net7.0\LinqTutorial.AssemblyInfoInputs.cache
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\LinqTutorial\obj\Debug\net7.0\LinqTutorial.AssemblyInfo.cs
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\LinqTutorial\obj\Debug\net7.0\LinqTutorial.csproj.CoreCompileInputs.cache
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\LinqTutorial\obj\Debug\net7.0\LinqTutorial.dll
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\LinqTutorial\obj\Debug\net7.0\refint\LinqTutorial.dll
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\LinqTutorial\obj\Debug\net7.0\LinqTutorial.pdb
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\LinqTutorial\obj\Debug\net7.0\LinqTutorial.genruntimeconfig.cache
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\LinqTutorial\obj\Debug\net7.0\ref\LinqTutorial.dll
