@@ -42,13 +42,44 @@ namespace Sample101Linq.DataSource
          // List<Customer> customers = Customers.CustomerList;
             List<Customer> customers = Customers.GetCustomersList();
 
+            /*
             var orderCounts = from c in customers
-                              select (c.CustomerID, OrderCount: c.Orders.Count());
+                              select (c.CustomerID, OrderCount: c.Orders.Count(), c.CompanyName);
 
             foreach (var customer in orderCounts)
             {
-                Console.WriteLine($"ID: {customer.CustomerID}, count: {customer.OrderCount}");
+                Console.WriteLine($"ID: {customer.CustomerID}, Name:{customer.CompanyName} ,count: {customer.OrderCount}");
+            }*/
+
+            /*
+            var orderCounts = from c in customers
+                              select new
+                              {
+                                  ID = c.CustomerID,
+                                  Name = c.CompanyName,
+                                  Count = c.Orders.Count()
+                              }; 
+
+            foreach (var customer in orderCounts)
+            {
+                Console.WriteLine($"ID: {customer.ID}, Name:{customer.Name} ,count: {customer.Count}");
+            }*/
+
+            var orderCounts = from c in customers
+                              where c.City.Equals("London")
+                              select new
+                              {
+                                  ID = c.CustomerID,
+                                  Name = c.CompanyName,
+                                  Count = c.Orders.Count()
+                              };
+
+            foreach (var customer in orderCounts)
+            {
+                Console.WriteLine($"ID: {customer.ID}, Name:{customer.Name} ,count: {customer.Count}");
             }
+
+
             #endregion
             return 0;
         }
