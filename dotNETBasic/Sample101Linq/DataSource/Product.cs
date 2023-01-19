@@ -8,6 +8,8 @@ namespace Sample101Linq.DataSource
 {
     public class Product
     {
+       
+
         public int ProductID { get; set; }
         public string ProductName { get; set; }
         public string Category { get; set; }
@@ -102,6 +104,15 @@ namespace Sample101Linq.DataSource
 
 
             };
+
+        public static List<Product> GetProductsList()
+        {
+            return ProductList;
+        }
     }
+
+   
+
+    
 
 }
