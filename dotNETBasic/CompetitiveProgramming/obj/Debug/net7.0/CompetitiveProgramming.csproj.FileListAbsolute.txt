@@ -1,0 +1,15 @@
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\CompetitiveProgramming\bin\Debug\net7.0\CompetitiveProgramming.exe
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\CompetitiveProgramming\bin\Debug\net7.0\CompetitiveProgramming.deps.json
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\CompetitiveProgramming\bin\Debug\net7.0\CompetitiveProgramming.runtimeconfig.json
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\CompetitiveProgramming\bin\Debug\net7.0\CompetitiveProgramming.dll
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\CompetitiveProgramming\bin\Debug\net7.0\CompetitiveProgramming.pdb
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\CompetitiveProgramming\obj\Debug\net7.0\CompetitiveProgramming.csproj.AssemblyReference.cache
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\CompetitiveProgramming\obj\Debug\net7.0\CompetitiveProgramming.GeneratedMSBuildEditorConfig.editorconfig
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\CompetitiveProgramming\obj\Debug\net7.0\CompetitiveProgramming.AssemblyInfoInputs.cache
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\CompetitiveProgramming\obj\Debug\net7.0\CompetitiveProgramming.AssemblyInfo.cs
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\CompetitiveProgramming\obj\Debug\net7.0\CompetitiveProgramming.csproj.CoreCompileInputs.cache
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\CompetitiveProgramming\obj\Debug\net7.0\CompetitiveProgramming.dll
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\CompetitiveProgramming\obj\Debug\net7.0\refint\CompetitiveProgramming.dll
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\CompetitiveProgramming\obj\Debug\net7.0\CompetitiveProgramming.pdb
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\CompetitiveProgramming\obj\Debug\net7.0\CompetitiveProgramming.genruntimeconfig.cache
+D:\Belajar Software Engineer\dotNET\dotNet-basic\dotNETBasic\CompetitiveProgramming\obj\Debug\net7.0\ref\CompetitiveProgramming.dll

@@ -11,9 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogicDasar", "LogicDasar\Lo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataTypes", "DataTypes\DataTypes.csproj", "{92FFEE9B-D638-4488-A9CA-BB737D08E6FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqTutorial", "LinqTutorial\LinqTutorial.csproj", "{AFBDE04D-47DB-4A5B-A341-F1355F24BCDE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqTutorial", "LinqTutorial\LinqTutorial.csproj", "{AFBDE04D-47DB-4A5B-A341-F1355F24BCDE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample101Linq", "Sample101Linq\Sample101Linq.csproj", "{D7319A24-4749-491F-B12F-802C24CCF19F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sample101Linq", "Sample101Linq\Sample101Linq.csproj", "{D7319A24-4749-491F-B12F-802C24CCF19F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompetitiveProgramming", "CompetitiveProgramming\CompetitiveProgramming.csproj", "{897FF590-86C4-49E5-8ACA-B3A41A06E6FF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{D7319A24-4749-491F-B12F-802C24CCF19F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7319A24-4749-491F-B12F-802C24CCF19F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7319A24-4749-491F-B12F-802C24CCF19F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{897FF590-86C4-49E5-8ACA-B3A41A06E6FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{897FF590-86C4-49E5-8ACA-B3A41A06E6FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{897FF590-86C4-49E5-8ACA-B3A41A06E6FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{897FF590-86C4-49E5-8ACA-B3A41A06E6FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
